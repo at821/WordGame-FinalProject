@@ -4,7 +4,7 @@ using UnityEngine;
 
 [System.Serializable]
 
-public class WordLevel : MonoBehaviour {
+public class WordLevel {
     public int levelNum;
     public int longWordIndex;
     public string word;
@@ -62,13 +62,5 @@ public class WordLevel : MonoBehaviour {
         
     }//static bool
 
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
