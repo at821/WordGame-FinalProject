@@ -15,6 +15,7 @@ public class NewBehaviourScript : MonoBehaviour {
     public bool big = false;
 
     public List<Vector3> pts = null;
+    public List<Letter> letters = new List<Letter>();//addded this
     public float timeStart = -1;
 
     private char _c;
